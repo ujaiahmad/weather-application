@@ -1,16 +1,14 @@
-# weather_application
+# Weather Application
+Design inspired by: https://dribbble.com/shots/20675054-Mobile-Weather-app 
 
-A new Flutter project.
+Features:
+1. Location of device (With permission)
+2. Timestamp
+3. Description of weather
+4. Temperature
+5. Summary
+6. Wind, Humidity and visibility
+7. Daily forecast
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## App Screenshot
+<img src="https://github.com/ujaiahmad/weather-application/assets/25504609/08954616-6843-4823-b692-f82385c8a3c7" width="250" /><br />
