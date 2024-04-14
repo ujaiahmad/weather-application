@@ -1,8 +1,6 @@
 import 'dart:convert';
 // import 'package:geolocator/geolocator.dart';
 // import 'package:weather_application/fetchLocation.dart';
-import 'package:geolocator/geolocator.dart';
-import 'package:weather_application/fetchLocation.dart';
 import 'package:weather_application/weatherModel.dart';
 import 'package:http/http.dart' as http;
 
@@ -14,8 +12,7 @@ Future<Weather> fetchWeather(lat, long) async {
   // Future<Position> futurePosition = determinePosition();
 
   // List weatherData = [];
-  final response = await http.get(Uri.parse(
-      'https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${long}&units=metric&appid=7a88f46416d4b0bd45ddc18438dd38e7'));
+  final response = await http.get(Uri.parse('testapi'));
 
   if (response.statusCode == 200) {
     // If the server did return a 200 OK response,
